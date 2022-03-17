@@ -1,0 +1,116 @@
+/* div stuff */
+div.top_container {
+  background-color: #EAF6F6;
+  padding-top: 20px;
+}
+div.middle_container {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+div.bottom-container {
+  background-color: #A9EEE6;
+  height: 80px;
+  padding-top: 5px;
+}
+
+/* body stuff */
+body {
+  font-family: 'Caveat', cursive;
+  margin: 0;
+  text-align: center;
+}
+
+/* heading (h1, h2, h3, ect.) stuff */
+h1 {
+  color: #66BFBF;
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* cloud stuff */
+.bottom_cloud {
+  position: absolute;
+}
+.top_cloud {
+  left: 200px;
+  top: 20px;
+  position: relative;
+}
+
+/* skill stuff */
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+.writing-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.drawing-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* button code */
+.btn {
+  background: #87cbf5;
+  background-image: -webkit-linear-gradient(top, #87cbf5, #4cade6);
+  background-image: -moz-linear-gradient(top, #87cbf5, #4cade6);
+  background-image: -ms-linear-gradient(top, #87cbf5, #4cade6);
+  background-image: -o-linear-gradient(top, #87cbf5, #4cade6);
+  background-image: linear-gradient(to bottom, #87cbf5, #4cade6);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Caveat', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/* other stuff */
+a {
+  color: #11999E;
+}
+hr {
+  border-style: dotted none none;
+  border-color: #D1D1D1;
+  border-width: 5px;
+  width: 5%;
+}
+.wrap-text {
+  margin: auto;
+  width: 50%;
+}
+.hr-1 {
+  margin-top: 40px;
+}
+.copyright {
+  padding: 20px 0;
+}
